@@ -1,0 +1,80 @@
+{
+  "arcus": {
+    "type": "subscribed",
+    "channel": "l2Orderbook",
+    "id": "SNDK-USD",
+    "contents": {
+      "bids": [
+        [
+          "1394.45",
+          "7.8455166"
+        ],
+        [
+          "1394.4",
+          "2.4868509"
+        ],
+        [
+          "1394.38",
+          "10.5416259"
+        ]
+      ],
+      "asks": [
+        [
+          "1394.46",
+          "0.0268923"
+        ],
+        [
+          "1394.47",
+          "0.0268919"
+        ],
+        [
+          "1394.5",
+          "0.2868517"
+        ]
+      ],
+      "lastSequenceId": 289059157,
+      "globalSequenceId": 5308122394,
+      "timestamp": 1792577563526188
+    }
+  },
+  "ondo": {
+    "type": "update",
+    "channel": "depthBooksPerps",
+    "timestamp": "2026-10-21T10:12:43.636799229Z",
+    "data": [
+      {
+        "market": "SNDK-USD.P",
+        "time": "2026-10-21T10:12:43.492798979Z",
+        "asks": [
+          [
+            "1393.9",
+            "0.035"
+          ],
+          [
+            "1394.1",
+            "0.86"
+          ],
+          [
+            "1394.3",
+            "4.48"
+          ]
+        ],
+        "bids": [
+          [
+            "1393.4",
+            "0.035"
+          ],
+          [
+            "1393.3",
+            "2.275"
+          ],
+          [
+            "1393.2",
+            "0.143"
+          ]
+        ]
+      }
+    ]
+  },
+  "_source": "Unsigned mainnet WebSocket snapshots, 2026-10-21; first three price levels retained."
+}
